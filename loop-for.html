@@ -8,11 +8,20 @@
 </head>
 <body>
     <script>
-        let text="";
-        for(i=0; i<5; i++){
-            text += "the number is " + i + "<br>";   
+        // let text="";
+        // for(i=0; i<5; i++){
+        //     text += "the number is " + i + "<br>";   
+        // }
+        // document.write(text)
+
+        let  num = prompt("Enter your number: ");
+        let total = 0;
+        let i = 1;
+        for(; i <= num; i++){
+            total += i;
         }
-        document.write(text)
+        alert(total);
+
     </script>
 </body>
 </html>
